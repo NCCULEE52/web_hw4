@@ -1,0 +1,159 @@
+body{
+	max-width: 991px;
+	/*border-top: 100px;*/
+	margin-top: 50px;
+	background-color: white;
+	/*display: none;*/
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.nav1,{
+	width:20%;
+	order:-2;
+	position: relative;
+	
+}
+.asi{
+	order:-3;
+	width:20%;
+	position: relative;
+	top: -450px;
+	left: -20px;
+}
+.asi>h5{
+	color:rgb(87,87,87);
+	font-size: 1rem;	
+	text-transform: uppercase;
+}
+.asi>p{
+	color:rgb(87,87,87);
+	font-size: .8rem;
+}
+.discuss{
+	
+	order:2;
+}
+#nav-info >nav{
+	display: flex;
+	flex-wrap:wrap;
+	background-color: white;
+	/*display: none;*/
+	/*color:orange;*/
+}
+.icon{
+	order:1;
+	width:100px;
+}
+.li1,.li2,.li3,.li4,.li5{
+	width:100%;
+	display: block;
+	background-color: white;
+	/*display: none;*/
+	font-size: 2rem;
+	/*line-height:18px;*/
+
+}
+.icon2 >img{
+	
+	display: none;
+}
+.icon {
+	/*order:6;*/
+	/*margin-left: 40%;*/
+	width: 100px;
+	margin-top: 10px;
+}
+.discuss >img{
+	width:100%;
+	height: 445px;
+}
+
+#titleA{
+	background-color: white;
+	width:25%;
+	font-size: 2.2rem;
+	line-height:30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	/*height: 1rem;*/
+}
+#titleB{
+	background-color: black;
+	width:72%;
+	color:white;
+	font-size: 2.2rem;
+	line-height:30px;
+	/*height: 1rem;*/
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#nd-nav{
+	display: flex;
+	flex-wrap:wrap;
+}
+.option {
+	width:25%;
+	text-align: center;
+	border-top: 5px;
+}
+.option >p{
+	/*display: none;*/
+}
+#archives{
+	display: flex;
+	flex-wrap:wrap;
+}
+.arti-with-pic{
+	width:25%;
+}
+.img>img{
+	/*height: 248px;*/
+	/*width:370px;*/
+	width:100%;
+	margin-top:20px;
+	margin-left: 10px;
+	padding-right: 10px;
+}
+/*{
+	margin-left: 10px;
+	padding-right: 10px;
+	}*/
+	.title,time,.arti-with-pic >p{
+		margin-left: 10px;
+		padding-right: 10px;
+	}
+	.relative1 {
+		position: relative;
+		top: -180px;
+		left: 165px;
+		/*background-color: white;*/
+		/*width: 200px;*/
+	}
+	#main {
+		position: relative;
+		top: -400px;
+		left: 165px;
+		/*background-color: white;*/
+		/*width: 200px;*/
+	}
+	.relative2 {
+		position: relative;
+		top: -80px;
+		left: 740px;
+		/*background-color: white;*/
+		/*width: 200px;*/
+	}
+
+	.relative3 {
+		position: relative;
+		/*top: -180px;*/
+		left: 275px;
+		bottom:80px;
+		/*background-color: white;*/
+		/*width: 200px;*/
+	}
+

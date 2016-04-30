@@ -1,0 +1,51 @@
+body > div > div > nav > ul{
+	color:rgb(96,190,174);
+}
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#nd-nav{
+	background-color:  rgb(239,248,247);
+	color:rgb(96,190,174);
+	padding:10px;
+
+}
+.option > h3{
+	font-size: 2rem;	
+}
+.option >p{ 
+	font-size:1rem;
+}
+.option{
+	border: solid;
+	border-color: rgb(217,239,236);
+	/*border-right-color:rgb(217,239,236);*/
+}
+.title{
+	color:rgb(96,190,174);
+	font-size:1.8rem;
+}
+.arti-with-pic > time{
+	color:#AAA ;
+}
+
+@media only screen and (min-width: 991px)  {
+	body{
+		
+		background-color: green;
+		/*display: none;*/
+		align-items: center;
+		justify-content: center;
+	}
+
+	#nav-info > nav{
+		/*background-color: blue;*/
+		display: none;
+		background-color:red;
+	}
+}
+
+
+
